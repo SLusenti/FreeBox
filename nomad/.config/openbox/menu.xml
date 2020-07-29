@@ -38,16 +38,6 @@
 	</item>
 </menu>
 <menu id="Office" label="Office" comment="--- auto ---">
-	<item icon="/usr/local/share/icons/hicolor/48x48/apps/lyx.png" label="LyX" comment="--- auto ---">
-		<action name="Execute">
-			<command>lyx </command>
-		</action>
-	</item>
-	<item icon="/usr/local/share/epdfview/pixmaps/icon_epdfview-48.png" label="ePDFViewer" comment="--- auto ---">
-		<action name="Execute">
-			<command>epdfview </command>
-		</action>
-	</item>
 </menu>
 <menu id="AudioVideo" label="AudioVideo" comment="--- auto ---">
 	<item icon="/usr/local/share/icons/hicolor/16x16/stock/media/stock_xfburn.png" label="Xfburn" comment="--- auto ---">
@@ -72,16 +62,6 @@
 	</item>
 </menu>
 <menu id="Graphics" label="Graphics" comment="--- auto ---">
-	<item icon="/usr/local/share/pixmaps/mirage.png" label="Mirage" comment="--- auto ---">
-		<action name="Execute">
-			<command>mirage </command>
-		</action>
-	</item>
-	<item icon="/usr/local/share/pixmaps/gtkam-camera.png" label="Gtkam Digital Camera Browser" comment="--- auto ---">
-		<action name="Execute">
-			<command>gtkam</command>
-		</action>
-	</item>
 	<item icon="/usr/local/share/pixmaps/xsane.xpm" label="XSane - Scanning" comment="--- auto ---">
 		<action name="Execute">
 			<command>xsane</command>
@@ -99,16 +79,6 @@
 	</item>
 </menu>
 <menu id="Network" label="Network" comment="--- auto ---">
-	<item icon="/usr/local/share/icons/hicolor/48x48/apps/hexchat.png" label="HexChat" comment="--- auto ---">
-		<action name="Execute">
-			<command>hexchat --existing </command>
-		</action>
-	</item>
-	<item icon="/usr/local/share/pixmaps/palemoon.png" label="Pale Moon" comment="--- auto ---">
-		<action name="Execute">
-			<command>palemoon </command>
-		</action>
-	</item>
 	<item icon="/usr/local/share/icons/Faenza/apps/96/pidgin.png" label="Pidgin Internet Messenger" comment="--- auto ---">
 		<action name="Execute">
 			<command>pidgin</command>

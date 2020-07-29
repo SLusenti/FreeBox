@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 NoDisplay=true
 StartupNotify=true
-Exec=xdg-open /home/nomad
+Exec=xdg-open $HOME

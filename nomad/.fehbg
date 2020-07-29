@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/nomad/Wallpapers/nomadBSD-2k.jpg'
+feh --bg-fill "$HOME/Wallpapers/nature_spirit_2_by_momez_d38osyz.jpg"

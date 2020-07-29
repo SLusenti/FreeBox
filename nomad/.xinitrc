@@ -1,5 +1,5 @@
 #!/bin/sh
-export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin:/home/nomad/bin
+export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin:${HOME}/bin
 
 if grep -q "drm_legacy" /var/run/gfxdriver; then
 	# https://lists.freebsd.org/pipermail/freebsd-stable/2020-March/092068.html
@@ -48,7 +48,7 @@ for s in 15 9; do
 	done
 done
 eval $(dbus-launch --sh-syntax)
-
+update_obmenu
 sh ~/.config/DSB/autostart.sh
 ############################################################################
 # Uncomment one of the following lines depending on the DE/WM you intend to
