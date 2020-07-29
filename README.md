@@ -28,11 +28,11 @@ cd FreeBox
 
 ### use FreeBox
 
-1. prepare user homedir
+1. prepare user homedir.
    this step can be skipped if the user is created after FreeBox installation
 ```bash
 rsync -ahv /etc/skel $HOMEDIR
-chown $USER:$GROUP $HOMEDIR
+chown -R $USER:$GROUP $HOMEDIR
 ```
 2. run Freebox with `startx`
 
