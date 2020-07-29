@@ -26,6 +26,15 @@ cd FreeBox
 ./install.sh
 ``` 
 
+### use FreeBox
+
+1. prepare user homedir
+   this step can be skipped if the user is created after FreeBox installation
+```bash
+rsync -ahv /etc/skel $HOMEDIR
+chown $USER:$GROUP $HOMEDIR
+```
+2. run Freebox with `startx`
 
 ### Screenshots
 ![](http://nomadbsd.org/screenshots/nomadbsd-1.3-RC1-ss1.png)
