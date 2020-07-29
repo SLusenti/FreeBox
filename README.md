@@ -6,7 +6,7 @@ tested on freebsd 12-release and freebsd 13-current
 
 ### install
 
-if you run FreeBSD as guest, make sure to install first the required drivers first.
+if you run FreeBSD as guest, make sure to install the required drivers first.
 
 if you use intel embedded graphic than
 ```bash
